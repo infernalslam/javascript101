@@ -51,3 +51,59 @@ I know JavaScript - Show me!
 JavaScript is a real language. Building a modern dynamic website without knowing it is nonsense. A lot of people working on web applications and web sites learnt the language on the job. Code written is often hard to understand and hard to maintain. It doesn't follow best practices or standard rules which provoke strange behaviours and bugs. Taking time to understand the fundamentals is really important! By doing so you can stop being a normal human and become a true web developer.
 
 # Definition & properties
+
+
+
+
+```js
+// variable
+let y = 20 // change everthing value
+const z = 30 // constain value
+
+console.log('send text in command line')
+// if - else  condition
+if (y > 30 || z === 30) {
+  console.log('hello')
+} else {
+  console.log('not hello')
+}
+
+// switch case
+let menu = z-y
+switch (menu) {
+  case 1 : console.log('menu 1')
+  break
+  case 2 : console.log('menu 2')
+  break
+  case 10 : console.log('result')
+  break
+}
+
+// for loop
+
+for (let i = 15; i <= 20; i++) {
+  if (i % 2 === 1) {
+    // console.log(`${i} x 2 = ???`)
+    console.log(i, ' x 2 = ???')
+  }
+}
+
+console.log('*')
+console.log('* * ')
+console.log('* * *')
+console.log('* * * *')
+
+console.log('================')
+
+
+let total = 10
+for (let i = total; i >= 1; i--) {
+  let star = ''
+  for (var j = i; j <= total; j++) {
+    star += ' *'
+  }
+ console.log(star)
+}
+
+// while
+```
